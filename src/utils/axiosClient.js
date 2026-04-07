@@ -5,7 +5,7 @@ const axiosClient = axios.create({
   // baseURL: 'http://localhost:8080/api/v1/',
   headers: {
     // 'Access-Control-Allow-Origin': 'http://localhost:3000',
-    'Access-Control-Allow-Origin': 'https://winbank-pearl.vercel.app/',
+    'Access-Control-Allow-Origin': 'https://winbank-pearl.vercel.app',
     'Access-Control-Allow-Credentials': true,
   },
   withCredentials: true,

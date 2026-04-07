@@ -4,8 +4,8 @@ const axiosClient = axios.create({
   baseURL: 'https://wincrest-et0w.onrender.com/api/v1',
   // baseURL: 'http://localhost:8080/api/v1/',
   headers: {
-    'Access-Control-Allow-Origin': 'https://wincrestrust.com',
     // 'Access-Control-Allow-Origin': 'http://localhost:3000',
+    'Access-Control-Allow-Origin': 'https://winbank-pearl.vercel.app/',
     'Access-Control-Allow-Credentials': true,
   },
   withCredentials: true,

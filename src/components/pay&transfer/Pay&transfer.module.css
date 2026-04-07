@@ -1,0 +1,26 @@
+.newBalance {
+  padding: 46px 0 40px 24px;
+}
+
+.newType {
+  padding: 40px 0 40px 27px;
+}
+
+.radius {
+  border-radius: 16px;
+}
+
+.settingRadius {
+  border-radius: 16px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .newBalance {
+    padding: 26px 0 40px 46px;
+  }
+
+  .newType {
+    padding: 56px 0 40px 56px;
+  }
+}

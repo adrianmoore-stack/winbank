@@ -1,0 +1,38 @@
+.account {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.balance,
+.type {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.balance {
+  margin-bottom: 16px;
+  background: url('../Assets/accountbal.svg');
+  background-size: cover;
+}
+
+.type {
+  background: url('../Assets/image 31.svg');
+  background-size: cover;
+}
+
+@media screen and (min-width: 1000px) {
+  .account {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .balance {
+    grid-column: 1/4;
+    margin-bottom: 0;
+  }
+  .type {
+    grid-column: 4/6;
+  }
+}
